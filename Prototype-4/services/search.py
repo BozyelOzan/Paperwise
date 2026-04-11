@@ -11,8 +11,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 from langdetect import LangDetectException, detect
-from logger import setup_logger
 from pydantic import BaseModel
+
+from logger import setup_logger
 
 logger = setup_logger(__name__)
 

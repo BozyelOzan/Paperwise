@@ -10,9 +10,10 @@ import json
 import os
 
 from dotenv import load_dotenv
-from logger import setup_logger
 from openai import OpenAI
 from pydantic import BaseModel
+
+from logger import setup_logger
 
 load_dotenv()
 logger = setup_logger(__name__)
